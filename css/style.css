@@ -19,8 +19,15 @@ body {
 
 }
 
+.main-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 .header {
     border-bottom: 2px solid rgba(255,255,255, 0.1);
+    position: relative;
 
 }
 
@@ -29,9 +36,6 @@ body {
     align-items: center;
     min-height: 90px;
     justify-content: space-between;
-}
-
-.logo {
 }
 
 .logo__icon {
@@ -64,3 +68,49 @@ body {
     color: #34C759;
 }
 
+.main-screen {
+    position: relative;
+
+}
+
+.main-title {
+    width: 1100px;
+    height: 163px;
+    margin-top: 80px;
+    margin-bottom: 16px;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 7.2px;
+    text-transform: capitalize;
+}
+
+.main-screen p {
+    width: 595px;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: -0.2px;
+}
+
+.order-button {
+    width: 220px;
+    height: 72px;
+    display: block;
+    margin: 40px auto;
+    padding: 25px 57px 25px 58px;
+
+    border-radius: 43px;
+    background: #34C759;
+
+    color: var(--black, #1A1A1A);
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+}
