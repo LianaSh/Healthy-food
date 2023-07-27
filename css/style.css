@@ -20,6 +20,7 @@ body {
 }
 
 .main-bg {
+    width: 100%;
     position: absolute;
     top: 0;
     right: 0;
@@ -271,4 +272,31 @@ body {
     padding-top: 16px;
     text-align: center;
     line-height: 30px;
+}
+
+.slider {
+    max-width: 981px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 90px auto 0;
+}
+
+.slider__track {
+    max-width: 734px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider__slide {
+    width: 350px;
+    height: 270px;
+}
+
+.slider__arrow-icon {
+    width: 60px;
+    height: 60px;
 }
