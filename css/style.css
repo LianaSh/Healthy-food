@@ -373,9 +373,32 @@ body {
     background-color: #252525;
 }
 
+.menu-card__sticker {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.30);
+    width: 40px;
+    height: 40px;
+    margin: 24px 24px 196px 286px;
+    z-index: 10;
+    border-radius: 50%;
+
+}
+
+.menu-card__icon {
+    color: #FFF;
+    width: 20.8px;
+    height: 20.8px;
+    display: flex;
+    margin: 8px auto;
+    /* margin: 8px; */
+    align-items: center;
+
+}
+
 .menu-card__img {
     width: 350px;
     height: 260px;
+    position: relative;
 }
 
 .menu-card__info {
@@ -425,13 +448,18 @@ body {
 }
 
 .rating__img {
-    color: #F9AD3D;
+    margin-right: 3px;
+}
+
+.rating__img:last-child {
+    margin-right: 0;
 }
 
 .rating_count {
     color: #B3B3B3;
     font-size: 12px;
     font-weight: 900;
+    margin-left: 14px;
 }
 
 .menu-card__button {
@@ -440,6 +468,7 @@ body {
     display: flex;
     margin: 0 auto;
     padding: 0 32px 0 32px;
+
     border-radius: 20px;
     background: #34C759;
 
@@ -447,5 +476,6 @@ body {
     align-items: center;
     font-size: 10px;
     font-weight: 900;
+    letter-spacing: 2px;
     text-decoration: none;
 }
