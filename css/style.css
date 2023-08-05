@@ -479,3 +479,82 @@ body {
     letter-spacing: 2px;
     text-decoration: none;
 }
+
+.person-list {
+    max-width: 1110px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 auto;
+    gap: 30px;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.person-card {
+    max-width: 350px;
+    width: 100%;
+    display: block;
+}
+
+.person-card__info {
+    display: flex;
+    align-items: center;
+}
+
+.person-card__avatar {
+    width: 65px;
+    height: 65px;
+}
+
+.person-card__title {
+    margin-left: 24px;
+}
+
+.person-card__name {
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+.person-card__desc {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+.person-card__portfolio {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.person-card__img {
+    width: 65px;
+    height: 65px;
+}
+
+.person-card__img_big {
+    width: 160px;
+}
+
+.recipes {
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.recipes-cards {
+    width: 540px;
+}
+
+.recipes-cards__breakfast {
+
+}
+
+.recipes-cards__img {
+
+}
+
