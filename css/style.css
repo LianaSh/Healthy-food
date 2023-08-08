@@ -541,13 +541,18 @@ body {
 .recipes {
     max-width: 1110px;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
     margin: 30px 0;
 }
 
+.recipes-cards {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+
 .recipes-cards__breakfast {
-    width: 540px;
+    max-width: 540px;
+    width: 100%;
     height: 510px;
     position: relative;
     display: flex;
@@ -645,4 +650,45 @@ body {
     color: #FFF;
     font-size: 12px;
     font-weight: 700;
+}
+
+.recipe-list {
+   
+}
+
+.recipe-card {
+    max-width: 540px;
+    width: 100%;
+    height: 150px;
+    background-color:  #252525;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-card__text {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.lunch__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lunch__title {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.40);
+    font-size: 10px;
+    font-weight: 900;
+
+}
+
+.lunch__data {
+    color: #B3B3B3;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
 }
