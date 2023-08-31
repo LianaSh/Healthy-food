@@ -798,6 +798,26 @@ body {
     display: none;
 }
 
+
+
+@media (max-width: 1140px) {
+    .main-title {
+        font-size: 30px;
+    }
+
+    .main-subtitle {
+        font-size: 14px;
+    }
+
+    .work {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .work-card {
+        max-width: 100%;
+    }
+}
+
 @media (max-width: 720px) {
     .nav {
         display: none;
@@ -809,18 +829,12 @@ body {
 
     .contacts {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+    }
+
+    .work {
+        grid-template-columns: repeat(1,1fr);
     }
 
 }
 
-@media (max-width: 1140px) {
-    .main-title {
-        font-size: 30px;
-    }
 
-    .main-subtitle {
-        font-size: 14px;
-    }
-}
